@@ -1,0 +1,202 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "greetings",
+                "good morning",
+                "good evening"
+            ],
+            "responses": [
+                "Hello! Welcome to Swasth AI. How can I assist you with your health today?",
+                "Hi there! I'm Swasth AI. Ask me about health issues, symptoms, or wellness tips."
+            ]
+        },
+        {
+            "tag": "flu",
+            "patterns": [
+                "flu",
+                "influenza",
+                "fever",
+                "cold",
+                "symptoms of flu",
+                "runny nose",
+                "sore throat"
+            ],
+            "responses": [
+                "Common flu symptoms include fever, cough, sore throat, runny nose, muscle aches, and fatigue. Rest and hydration are key. If symptoms persist, consult a doctor."
+            ]
+        },
+        {
+            "tag": "headache",
+            "patterns": [
+                "headache",
+                "migraine",
+                "head hurts",
+                "throbbing head"
+            ],
+            "responses": [
+                "Headaches can be caused by dehydration, stress, or lack of sleep. Try drinking water, resting in a dark room, or applying a cold compress."
+            ]
+        },
+        {
+            "tag": "covid",
+            "patterns": [
+                "covid",
+                "coronavirus",
+                "covid-19",
+                "corona symptoms"
+            ],
+            "responses": [
+                "COVID-19 affects different people in different ways. Common symptoms include fever, cough, tiredness, and loss of taste or smell. Isolate yourself and seek medical advice if needed."
+            ]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": [
+                "diabetes",
+                "high blood sugar",
+                "insulin",
+                "symptoms of diabetes",
+                "type 2 diabetes"
+            ],
+            "responses": [
+                "Diabetes symptoms include frequent urination, increased thirst, and unexplained weight loss. Management involves a healthy diet, regular exercise, and monitoring blood sugar levels."
+            ]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": [
+                "high blood pressure",
+                "hypertension",
+                "bp",
+                "lower blood pressure"
+            ],
+            "responses": [
+                "High blood pressure often has no symptoms but can lead to heart disease. Reduce salt intake, exercise regularly, and manage stress to keep it in check."
+            ]
+        },
+        {
+            "tag": "first_aid_burns",
+            "patterns": [
+                "burn",
+                "burnt hand",
+                "skin burn",
+                "treat burn"
+            ],
+            "responses": [
+                "For minor burns, cool the burn under running cool tap water for 10-20 minutes. Do not use ice or butter. Cover loosely with a sterile bandage."
+            ]
+        },
+        {
+            "tag": "first_aid_cuts",
+            "patterns": [
+                "cut",
+                "bleeding",
+                "wound",
+                "treat cut"
+            ],
+            "responses": [
+                "Clean the cut with water, apply pressure to stop bleeding, and cover with a sterile bandage. Seek medical help if the cut is deep or bleeding won't stop."
+            ]
+        },
+        {
+            "tag": "cpr",
+            "patterns": [
+                "cpr",
+                "give cpr",
+                "cardiac arrest help"
+            ],
+            "responses": [
+                "Push hard and fast in the center of the chest (100-120 beats per minute). If trained, give rescue breaths. call emergency services immediately."
+            ]
+        },
+        {
+            "tag": "diet",
+            "patterns": [
+                "diet",
+                "nutrition",
+                "healthy food",
+                "what to eat",
+                "balanced diet"
+            ],
+            "responses": [
+                "A balanced diet includes fruits, vegetables, whole grains, and lean proteins. limit sugars, saturated fats, and sodium for better health."
+            ]
+        },
+        {
+            "tag": "mental_health_anxiety",
+            "patterns": [
+                "anxiety",
+                "anxious",
+                "panic attack",
+                "scared"
+            ],
+            "responses": [
+                "Anxiety can differ for everyone. deep breathing (4-7-8 technique), grounding exercises, and talking to a professional can help manage it."
+            ]
+        },
+        {
+            "tag": "mental_health_stress",
+            "patterns": [
+                "stress",
+                "stressed",
+                "feeling overwhelmed"
+            ],
+            "responses": [
+                "To manage stress, try regular exercise, meditation, getting enough sleep, and connecting with loved ones. It's okay to take a break."
+            ]
+        },
+        {
+            "tag": "exercise",
+            "patterns": [
+                "exercise",
+                "workout",
+                "fitness",
+                "gym"
+            ],
+            "responses": [
+                "Adults should aim for at least 150 minutes of moderate-intensity activity per week. consistency is key—find an activity you enjoy!"
+            ]
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "sleep",
+                "insomnia",
+                "cant sleep",
+                "tired"
+            ],
+            "responses": [
+                "Good sleep hygiene includes a consistent schedule, a dark and cool room, and avoiding screens before bed. Aim for 7-9 hours of sleep."
+            ]
+        },
+        {
+            "tag": "hydration",
+            "patterns": [
+                "water",
+                "hydration",
+                "drink water",
+                "dehydrated"
+            ],
+            "responses": [
+                "Staying hydrated is crucial. Aim for about 8 glasses (2 liters) of water a day, more if you are active or in hot weather."
+            ]
+        },
+        {
+            "tag": "allergies",
+            "patterns": [
+                "allergy",
+                "allergic",
+                "sneeze",
+                "itchy eyes"
+            ],
+            "responses": [
+                "Allergies occur when your immune system reacts to a foreign substance. avoided triggers and antihistamines can help. See an allergist for severe cases."
+            ]
+        }
+    ]
+}
